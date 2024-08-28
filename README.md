@@ -1,18 +1,36 @@
-## Getting Started
+# OpenAI GPT-4 Java Client
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple Java app that interacts with the OpenAI API using GPT-4.
 
-## Folder Structure
+## Prerequisites
 
-The workspace contains two folders by default, where:
+- **Java 11+**
+- **OpenAI API Key**: Get yours from [OpenAI](https://platform.openai.com/signup).
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Setup & Run
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. **Set API Key**:
+   - **macOS/Linux**:
+     ```sh
+     export OPENAI_API_KEY=your-api-key-here
+     ```
+   - **Windows**:
+     ```cmd
+     set OPENAI_API_KEY=your-api-key-here
+     ```
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+2. **Compile**:
+   ```sh
+   javac App.java
+   ```
 
-## Dependency Management
+3. **Run**:
+   ```sh
+    java App
+    ```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+4. **Usage**
+Enter a message when prompted, and the app will display the API's response.
+
+License
+MIT License
