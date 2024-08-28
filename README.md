@@ -34,4 +34,5 @@ A simple Java app that interacts with the OpenAI API using GPT-4.
 Enter a message when prompted, and the app will display the API's response.
 
 **License**
+
 MIT License
