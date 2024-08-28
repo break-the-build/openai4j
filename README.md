@@ -38,4 +38,4 @@ Enter a message when prompted, and the app will display the API's response.
 
 Attribution: https://github.com/danvega/hello-gpt
 
-MIT License
+[MIT License](LICENSE)
